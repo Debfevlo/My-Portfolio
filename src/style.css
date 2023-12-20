@@ -1,14 +1,53 @@
-    body{
-        font-family: 'Playfair Display', serif;
-    font-family: 'Poppins', sans-serif;
-    }
+:root{
+    --text-color: #fff;
+    --text-alignment: center;
+    --h1-font: 'Playfair Display', serif;
+    --p-font:  'Poppins', sans-serif;
+    --styling-color:#FC709B;
+}
 
 
 
 .first{
-    background-image: url('../src/images/code.jpg');
-    height: 407px;
-    width: 1024px;
-    background-size: cover;
-}
+    background-color: #080808;
     
+}
+
+
+
+
+h1{
+    color: var(--text-color);
+    text-align: var(--text-alignment);
+    font-family: var(--h1-font);
+    font-weight: bold;
+}
+
+p {
+    color: var(--text-color);
+    text-align: var(--text-alignment);
+    font-family: var(--p-font);
+    font-weight: normal;
+}
+
+.fa-brands{
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.nav-styling{
+    background-color: #080808 !important;
+}
+
+
+
+span{
+    color: var(--styling-color);
+}
+
+li{
+    color: var(--text-color);
+}
+
+
+
