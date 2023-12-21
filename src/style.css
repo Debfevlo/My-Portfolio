@@ -30,13 +30,38 @@ p {
     font-weight: normal;
 }
 
-.fa-brands{
-    background-color: #fff;
-    margin: 0 auto;
-}
+
 
 .nav-styling{
     background-color: #080808 !important;
+}
+
+.nav-alignment{
+    display: flex !important;
+    justify-content: end !important;
+}
+
+.navbar-custom .navbar-nav {
+    display: flex;
+    justify-content: evenly;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+    
+}
+
+icon{
+    width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 50%;
+        margin-left: 30px;
+
 }
 
 
@@ -48,6 +73,4 @@ span{
 li{
     color: var(--text-color);
 }
-
-
 
