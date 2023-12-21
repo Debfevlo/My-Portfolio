@@ -7,12 +7,6 @@
 }
 
 
-
-
-
-
-
-
 h1{
     color: var(--text-color);
     text-align: var(--text-alignment);
@@ -45,7 +39,7 @@ a{
 
 .nav-styling{
     background-color: #080808 !important;
-    font-family: var(--p-font);
+    font-family: var(--h1-font);
 }
 
 .nav-alignment{
@@ -76,6 +70,18 @@ a{
         justify-content: center;
         align-items: center;
 
+}
+
+@media(max-width:960px){
+    h1{
+        font-weight: 200;
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        
+    }
 }
 
 
