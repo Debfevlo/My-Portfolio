@@ -39,7 +39,9 @@ a{
     color: #080808;
 }
 
-
+.toogle-icon{
+    background-color: #FC709B;
+}
 
 .nav-styling{
     background-color: #080808 !important;
