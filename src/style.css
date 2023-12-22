@@ -33,6 +33,11 @@ a{
     color: #080808;
 }
 
+h3 {
+    color: var(--text-color);
+    text-align: center;
+}
+
 .toogle-icon{
     background-color: #FC709B;
 }
@@ -82,13 +87,19 @@ a{
     justify-content: center;
 }
 
-.border{
+.border1{
     border: 1px solid var(--styling-color);
+    background-color: #262626;
 }
-h3{
-    color: var(--text-color);
-    text-align: center;
+
+.fa-code, .fa-icons, .fa-business-time{
+    color: #FC709B;
+    margin-right:7px;
 }
+.button-color{
+    background-color: var(--styling-color);
+}
+
 
 
 
