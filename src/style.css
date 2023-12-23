@@ -120,26 +120,100 @@ h3 {
 .language{
         width: 70px;
         height: 70px;
-        background-color: #fff;
         border-radius: 50px;
-        margin-left: 20px;
-        border: 1px solid #080808;
         display: flex;
         justify-content: center;
         align-items: center;
+        border: 3px solid var(--styling-color);
+        background-color: #383636;
         
         
 }
 
+.language-rectangle{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--styling-color);
+    background-color: #383636;
+    border-radius: 4px;
+}
+
+.language-elipse{
+        width: 130px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid var(--styling-color);
+        background-color: #383636;
+        border-radius: 30px;
+}
 .centered-text{
     text-align: center;
     margin: 0;
 }
 
+.design{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.contact-info{
+    background-color: #fff;
+    height: 30%;
+    width: 60%;
+    margin-top: 30px;
+    background-color: #383636;
+}
 
+.para-font{
+    font-size: 20px;
+}
 
- 
+.phone{
+    font-size: 20px;
+    color: #fff;
+}
+
+.custom-input {
+    width: 270px;
+    /* Set the width */
+    height: 40px;
+    /* Set the height */
+    padding: 8px;
+    /* Adjust padding as needed */
+    /* Additional styling */
+    border: 2px solid #4E4E4E ;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #383636 ;
+}
+
+.custom-input-message{
+    width: 270px;
+        /* Set the width */
+        height: 80px;
+        /* Set the height */
+        padding: 8px;
+        /* Adjust padding as needed */
+        /* Additional styling */
+        border: 2px solid #4E4E4E;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: #383636;
+}
+
+.custom-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+}
 
 
 
