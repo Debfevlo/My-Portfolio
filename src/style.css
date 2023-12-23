@@ -104,7 +104,42 @@ h3 {
     font-family: var(--h1-font);
 }
 
+.container3{
+    background-color: #383636;
+        width: 100%;
+        margin-top: 50px;
+}
 
+
+
+.img{
+    width: 90%;
+    height:70%;
+}
+
+.language{
+        width: 70px;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 50px;
+        margin-left: 20px;
+        border: 1px solid #080808;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+}
+
+.centered-text{
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+ 
 
 
 
@@ -133,7 +168,13 @@ h3 {
         
     }
 
-    
+   .anchor{
+    display: flex;
+    justify-content: center;
+    width: auto;
+   height: auto;
+   }
+
 }
 
 
