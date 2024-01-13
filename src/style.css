@@ -31,6 +31,7 @@ li {
 
 a{
     color: #080808;
+    text-decoration: none;
 }
 
 h3 {
@@ -223,6 +224,7 @@ h3 {
         color: rgba(0, 0, 0, 0.6);
         color: #fff;
         font-size: 15px;
+
 }
 
 
