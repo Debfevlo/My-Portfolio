@@ -267,6 +267,14 @@ h3 {
     display: none;
    }
 
+   .hidden-project{
+    display: none;
+   }
+
+   .my-bio{
+    display: none;
+   }
+
 }
 
 
