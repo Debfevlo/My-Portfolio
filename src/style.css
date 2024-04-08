@@ -294,6 +294,10 @@ h3 {
     display: none;
    }
    
+   .container-contact{
+    width: 100%;
+    height: 100%;
+   }
 }
 
 
