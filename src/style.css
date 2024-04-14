@@ -231,6 +231,13 @@ h3 {
 
 
 
+.element-hovering1:hover {
+background-color: pink;
+
+}
+
+
+
 
 
 @media(max-width:960px){
