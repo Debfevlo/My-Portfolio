@@ -209,13 +209,109 @@ h3 {
         background-color: #383636;
 }
 
-.custom-button {
-    padding: 12px 24px;
-    font-size: 16px;
+.element-hovering1 {
+    position: relative;
+
+}
+
+.element-hovering1:after {
+    content: '';
+    position: absolute;
+    background-color: #FC709B;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: width 0.3s ease;
+}
+
+.element-hovering1:hover:after {
+    width: 100%;
+}
+
+/* Button styling */
+.button-color {
+    background-color: #FC709B;
+    /* Updated button color */
+    padding: 10px 20px;
     border: none;
-    border-radius: 4px;
-    background-color:#FC709B ;
-    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    /* Ensure dropdown is positioned relative to this button */
+}
+
+.button-color:hover {
+    background-color: #e0668b;
+    /* Slightly darker shade on hover */
+}
+
+/* Dropdown wrapper */
+.dropdown-wrapper {
+    position: relative;
+    /* Position dropdown relative to this container */
+    display: inline-block;
+    /* Ensure proper alignment */
+}
+
+/* Dropdown menu container */
+.dropdown_menu {
+    display: none;
+    /* Hide dropdown by default */
+    position: absolute;
+    background-color: #FC709B;
+    /* Updated dropdown menu color */
+    min-width: 160px;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    /* Space between button and dropdown */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    border-radius: 5px;
+    left: 0;
+    /* Align dropdown to the left edge of button */
+}
+
+/* Dropdown list items */
+.dropdown_menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dropdown_menu li {
+    display: block;
+}
+
+.dropdown_menu li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #e0668b;
+    /* Text color to contrast with background */
+    background-color: #fff;
+    /* Same as dropdown menu color */
+    border-bottom: 1px solid #e0668b;
+    /* Slightly darker border for contrast */
+}
+
+.dropdown_menu li:last-child a {
+    border-bottom: none;
+}
+
+.dropdown_menu li a:hover {
+    background-color: #FC709B;
+    color: #fff;
+}
+
+/* Show the dropdown when hovering over the wrapper */
+.dropdown-wrapper:hover .dropdown_menu {
+    display: block;
+    /* Keep dropdown visible when hovering over the button or dropdown */
 }
 
 .footer{
@@ -226,16 +322,7 @@ h3 {
         color: rgba(0, 0, 0, 0.6);
         color: #fff;
         font-size: 15px;
-
 }
-
-
-
-.element-hovering1:hover {
-background-color: pink;
-
-}
-
 
 
 
